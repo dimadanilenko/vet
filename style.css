@@ -1,0 +1,411 @@
+header{
+    width: 100%;
+    height: 800px;
+    background-color: #F4F1ED;
+    background-image: url(/images/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    padding-top: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu .burger,.buttonMenu{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.menu .burger{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 30px;
+    display: flex;
+}
+.menu .burger img{
+    margin-right: 15px;
+}
+
+.menu .search{
+    width: 227px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border: 1px #D1DBD6 solid;
+    border-radius: 50px;
+
+}
+.menu .buttonMenu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu .buttonMenu ul{
+    display: flex;
+    align-items: center;
+}
+.menu .buttonMenu ul li{
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.menu .buttonMenu .counter{
+    width: 44px;
+    height:26px;
+    background-color: #0E2D22;
+    border-radius: 50px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerText{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 76px;
+}
+.headerText h2{
+    font-size: 66px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0E2D22;
+    margin-top: 159px;
+}
+.headerText p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0E2D22;
+    margin-top: 33px;
+}
+.headerText a{
+    width: 232px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #0E2D22;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meds{
+    width: 100%;
+    height: 876px; 
+    background-color: #F4F1ED;  
+    display: flex;
+    justify-content: space-around;
+}
+.meds .medsText{
+    margin-top: 117px;
+    display: inline-block;
+}
+.medsText h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+    color: #0E2D22;
+}
+.medsText ul{
+    margin-top: 45px;
+    
+}
+.medsText ul li{
+    list-style-type: none;
+    margin-bottom: 66px;
+    display: flex;
+    align-items: center;
+}
+.medsText ul li span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #9FABA7 solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.medsChouse{
+    background-color: #0E2D22;
+    color: #fff;
+}
+.meds img{
+    width:593px;
+    height:438px;
+    margin-top: 117px;
+}
+.meds a{
+    display: block;
+}
+.shop{
+    width: 100%;
+    height: 884px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop .shopTitle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    color: #000;
+}
+.shop .shopDescr{
+    text-align: center;
+    color: #636E72;
+    margin-top: 27px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+.shop a{
+    width: 232px;
+    height: 40px;
+    background-color: #CBDDBF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.shop .product{
+    width: 283px;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 57px;
+
+}
+.shop .product .firstProduct{
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+    
+}
+.shop .product .firstProduct .productImage{
+    width: 283px;
+    height: 226px;
+    background-color: #F4F1ED;
+    
+} 
+.shop .product .firstProduct .productImage p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    color: #0E2D22;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.shop .product .firstProduct .productImage img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.shop .product .firstProduct h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+.shop .product .firstProduct .catecogryProduct{
+    margin-bottom: 9px;
+
+}
+.shop .product .firstProduct .catecogry{
+    padding: 4px 10px;
+    background-color: #F4F1ED;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0E2D22;
+    display: inline-block;
+    border-radius: 50px;
+}
+.shop .product .firstProduct .descriptionProduct{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #636E72;
+    margin-top: 17px;
+}
+.shop .product .firstProduct .warningProduct{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.shop .product .firstProduct img{
+    width: 182px;
+    height: 139px;
+}
+.petPhoto{
+    width: 100%;
+    height: 1236px;
+    background-color: #0E2D22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.petPhotoText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.petPhotoText h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 47px;
+    color: #CBDDBF;
+}
+.petPhoto a{
+    display: flex;
+    margin-top: 41px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 40px;
+    background-color: #9E5B54;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.petPhoto .firstBlock{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.petPhoto .textBlock{
+    color: #CBDDBF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 9px;
+    display: flex;
+}
+.petPhoto .textBlock .textBlockSpan{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    background-color: #9E5B54;
+    color: #FFF;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.petPhoto .secondBlock{
+    position: absolute;
+    top: 150px;
+    right: 30px;
+}
+.petPhoto .thirdBlock{
+    position: absolute;
+    bottom: 152px;
+    left: 30px;
+}
+.petPhoto .fourBlock{
+    position: absolute;
+    bottom: 152px;
+    right: 30px;
+}
+.map{
+    width: 100%;
+    height: 1248px;
+    background-color: #636E72;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map h2{
+    margin-top: 147px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+}
+.map p{
+    margin-top: 29px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.map a{
+    margin-top: 26px;
+    width: 155px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 50px;
+    background-color: #CBDDBF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.map img{
+    margin-top: 40px;
+
+}
+footer{
+    width: 100%;
+    height: 475px;
+    background-color: #FFF;
+    position: relative;
+}
+footer .footerText{
+    display: flex;
+    margin-top: 30px;
+}
+footer .footerText .contact{
+    margin-left: 30px;
+}
+footer .footerText .company{
+    margin-left: 179px;
+}
+footer .footerText .legal{
+    margin-left: 215px;
+}
+footer .footerText h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #0E2D22;
+    margin-top: 10px;
+}
+footer .footerText .street{
+    margin-top: 38px;
+}
+footer .footerImage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+footer .footerImage .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+footer .footerImage .social h2{
+    color: #0E2D22;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: 40px;
+    left: 0;
+
+}
+footer .footerImage .social .socialImg{
+    display: flex;
+    align-items: center;
+}
